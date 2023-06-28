@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/Registerform.css">
+</head>
+<body>
+    <div class="reg-box">
+        <h2>Register</h2>
+        <form name="form-app">
+            <div class="user-box">
+                <input type="text" name="username" id="username" required>
+                <label>Username</label>
+                <p id="error_user" class="error">Errore</p>
+            </div>
+
+            <div class="user-box">
+                <input type="text" name="email" id="email" required>
+                <label>Email</label>
+                <p id="error_mail" class="error">Errore</p>
+            </div>
+
+            <div class="user-box">
+                <input type="text" name="pwd1" id="pwd1" required>
+                <label>Password</label>
+                <p id="error_pwd" class="error">Errore</p>
+            </div>
+
+            <div class="user-box">
+                <input type="text" name="pwd2" id="pwd2" required>
+                <label>Password controllo</label>
+            </div>
+
+            <div class="button-form">
+                <a id="submit">Register</a>
+
+                <div id="login">
+                    Do you have an account?
+                    <a href="dinamicForm.html">Login</a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="js/Registerform.js"></script>
+</body>
+</html>
